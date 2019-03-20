@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Lato' !important;
+  color: #555555 !important;
+}
+.form-control {
+  border: 1px solid #1a83c4 !important;
+}
+input::placeholder{
+  color:#1a83c4 !important;
+}

@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/SCL007-Hackathon-Fundacion-Banigualdad",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
