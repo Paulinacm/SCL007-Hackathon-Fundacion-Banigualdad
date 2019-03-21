@@ -1,35 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
   <head>
-    <title>Ban Igualdad</title>
-  </head>
-  <body>
-    <main>
-      <!--Contenido principal-->
-      <div id="detail-product-services">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="./conciencia.jpg" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 id="name-enterprising" class="card-title">
-                  Aquí va el nombre del emprendimiento
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">Rubro</h6>
-                <p class="card-text">
-                  Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                  voluptatum totam sit suscipit magni ipsum atque animi doloremque eveniet. Ipsum
-                  provident repudiandae earum recusandae nesciunt. Eum architecto facere totam ad?
-                </p>
-                <p class="card-text"><small class="text-muted">Lista</small></p>
-                <span><a href="#" class="wsp-app-link">Link a WSP</a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -42,8 +16,80 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://www.banigualdad.cl/wp-content/uploads/2017/12/favicon.ico"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Vitrina BanIgualdad</title>
+  </head>
+  <body>
+    <div id="loading">
+      <div class="contenedor-loading">
+        <img src="./assets/Logo_Banigualdad.jpg" alt="Logo_Banigualdad" />
+        <div class="text-center">
+          <div class="spinner-border text-info" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="./assets/logo_web-01.png" width="150" />
+        <form class="form-inline form-group sm">
+          <input
+            class="form-control search"
+            type="search"
+            placeholder="Busca un producto o un servicio"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0 ml-3" type="submit">Buscar</button>
+          <button class="btn btn-outline-success" type="submit">Ingresar</button>
+        </form>
+      </nav>
+    </header>
+    <div class="space"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img class="imagenes" src="./assets/600x400.jpg" alt="" />
+          <p>Nombre del Emprendedor</p>
+          <p>Breve Descripciòn</p>
+        </div>
+        <div class="col-4">
+          <img class="imagenes" src="./assets/600x400.jpg" alt="" />
+          <p>Nombre del Emprendedor</p>
+          <p>Breve Descripciòn</p>
+        </div>
+        <div class="col-4">
+          <img class="imagenes" src="./assets/600x400.jpg" alt="" />
+          <p>Nombre del Emprendedor</p>
+          <p>Breve Descripciòn</p>
+        </div>
+        <div class="col-4">
+          <img class="imagenes" src="./assets/600x400.jpg" alt="" />
+          <p>Nombre del Emprendedor</p>
+          <p>Breve Descripciòn</p>
+        </div>
+        <div class="col-4">
+          <img class="imagenes" src="./assets/600x400.jpg" alt="" />
+          <p>Nombre del Emprendedor</p>
+          <p>Breve Descripciòn</p>
+        </div>
+        <div class="col-4">
+          <img class="imagenes" src="./assets/600x400.jpg" alt="" />
+          <p>Nombre del Emprendedor</p>
+          <p>Breve Descripciòn</p>
+        </div>
+      </div>
+    </div>
     <!-- importante poner sus scripts al final del archivo -->
-    <script src="js/app.js" type="module"></script>
+    <script src="./js/app.js" type="js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -59,5 +105,12 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.onload = function() {
+        const contenedor = document.getElementById('loading');
+        contenedor.style.visibility = 'hidden';
+        contenedor.style.visibility = '0';
+      };
+    </script>
   </body>
 </html>
