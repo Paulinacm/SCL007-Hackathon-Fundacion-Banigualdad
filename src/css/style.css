@@ -89,3 +89,63 @@ h4{ /* iniciar sesión */
   font-size:  14px;
   line-height: 21px;
 }
+header{
+  background-color: #1A83C4;
+}
+
+.menu{
+  color: white;
+}
+.name{
+  text-align: center;
+  color: white;
+}
+
+.back, .add, .image, .archivo, .arrowRight{
+  width: 20px;
+  height: 20px;
+}
+
+.arrowRight{
+  text-align: left;
+}
+
+.image, .archivo{
+  margin-right: 10px;
+  margin-left: 10px
+}
+
+footer {
+  background-color: white
+}
+
+.firstMessage, .secondMessage{
+  border-radius: 5px;
+  width: 250px;
+  margin: 20px;
+}
+
+.firstMessage{
+  border: 2px solid rgb(235, 240, 240);
+  background-color: rgb(235, 240, 240);
+}
+
+.secondMessage{
+  border: 2px solid white;
+  background-color: white;
+  margin: right;
+}
+
+.pMessage{
+  margin: 10px
+}
+
+input{
+  border-radius: 5px;
+  width: 200px;
+}
+
+body{
+  background-color: whitesmoke
+
+}
