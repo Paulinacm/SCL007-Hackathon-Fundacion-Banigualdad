@@ -36,6 +36,10 @@ body{
   width: 100%;
   height: 50px;
 }
+.spaceid{
+  width:100%;
+  height: 100px;
+}
 .carousel-item{
   max-height: 550px ;
 }
@@ -230,6 +234,9 @@ text-align:center;
 }
 .space{
   height: 250px;
+}
+.spaceid{
+  height:50px;
 }
 .logo-mobile{
   width:100%;
