@@ -74,7 +74,7 @@ btnIngresar.addEventListener("click", loginUser, false);
 function initialPage() {
     let divRoot = document.getElementById("root");
     divRoot.innerHTML = `
-   <a href="index.html"> <img  src="./assets/Logo_Banigualdad.jpg" class="logo"></a>
+   <a href="index.html"> <img  src="./assets/logo_web-01.png" class="logo"></a>
     <h4>Iniciar sesión</h4>
     <input id="email" type="text" placeholder="Email" >
     <input  id="password" type="text" placeholder="Contraseña">
@@ -82,7 +82,7 @@ function initialPage() {
     <p>asesora@gmail.com - asesora </p>
     <br>
     <br>
-    <p class="TyCText">Al aceptar indica que acepta los Términos y Condiciones</p>
+    <a href="index.html" class="TyCText">Volver al Inicio</>
     `
 };
 
